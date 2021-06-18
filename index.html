@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de contacto</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+                
+                <br><br><br>
+                <img class="icon1" src="./online-game.png" alt=""/>
+                <h2 class="topFont">Formulario</h2>
+            </section>
+            <section class="info_items">
+                <div>
+                    <br><br><br>
+                    <img class= "imagenfondo" src="./fondo1.png" alt=""/>
+                </div>
+               
+            </section>
+        </section>
+
+        <form  class="form_contact" id="formulario" name="formulario" method="POST" action= "insertar.php">
+            <h2 class="topFont">Llena los datos</h2>
+            <div class="formFont">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <label for="phone">ID de Usuario</label>
+                        <input type="number" name="idUsuario" placeholder="7">
+                    </div>
+                    <div class="col-6">
+                        <label for="phone">ID de Amigo</label>
+                        <input type="number" name="idAmigo" placeholder="88">
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <label for="names">Nombre</label>
+                    <input type="text" name="nombre">
+                  </div>
+                  <div class="col-4">
+                    <label for="names">Apellido Paterno</label>
+                <input type="text" name="apellidoP">
+                  </div>
+                  <div class="col-4">
+                    <label for="names">Apellido Materno</label>
+                <input type="text" name="apellidoM" >
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="email">Correo electronico </label>
+                        <input type="text" name="correo" placeholder="correo@email.com">
+                    </div>
+                    <div class="col-6">
+                        <label for="email">Contrasena</label>
+                        <input type="text" name="pass" placeholder="******">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="email">Fecha de nacimiento </label>
+                        <input type="text" name="fechaNac" placeholder="1994-10-06">
+                    </div>
+                    <div class="col-6">
+                        <label for="mensaje">Sexo</label>
+                        <input type="text" name="sexo" placeholder="H/M">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="user_info">               
+                <input type="submit" value="Enviar " name="btnEnviar">
+            </div>
+        </form>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
